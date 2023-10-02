@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Birds List</title>
+        <script>
+            function showBirds()
+            {
+                document.getElementById("birdlist").style.display="block";
+            }
+            function showanimals()
+            {
+                document.getElementById("animallist").style.display="block";
+            }
+        </script>
+        <style>
+            body{
+                background-color: lavender;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>BirdList</h1>
+        <button onclick = "showBirds()"> Click Here</button>
+        <u id = "birdlist" style = "display:none";>
+            <li>Parrot</li>
+            <li>Pigeon</li>
+            <li>Crow</li>
+            <li>Peacock</li>
+            <li>HummingBird</li>
+        </u>
+        <h1>Animal List</h1>
+        <button onclick="showanimals()">Click here</button>
+        <u id = "animallist" style = "display:none";>
+        <li>Cow</li>
+        <li>Goat</li>
+        <li>Cat</li>
+        <li>Dog</li>
+    </u>
+    </body>
+</html>
